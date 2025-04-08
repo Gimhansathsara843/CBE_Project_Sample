@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="3.0" xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+	<persistence-unit name="materialdata">
+		<class>com.example.materialdata.entity.Inmatm</class>
+		<class>com.example.materialdata.entity.Inwrhmtm</class>
+		<class>com.example.materialdata.entity.Spestmtm</class>
+		<class>com.example.materialdata.entity.SpestmtmPK</class>
+		<class>com.example.materialdata.entity.InwrhmtmPK</class>
+
+		<class>com.example.materialdata.entity.Pcesthtt</class>
+		<class>com.example.materialdata.entity.PcesthttPK</class>
+		<class>com.example.materialdata.entity.Pcestdtt</class>
+		<class>com.example.materialdata.entity.PcestdttPK</class>
+		<class>com.example.materialdata.entity.Applicant</class>
+		<class>com.example.materialdata.entity.Application</class>
+		<class>com.example.materialdata.entity.ApplicationPK</class>
+		<class>com.example.materialdata.entity.WiringLandDetail</class>
+		<class>com.example.materialdata.entity.WiringLandDetailPK</class>
+		<class>com.example.materialdata.entity.Spestlab</class>
+		<class>com.example.materialdata.entity.SpestlabPK</class>
+		<class>com.example.materialdata.entity.Splabrat</class>
+		<class>com.example.materialdata.entity.SplabratPK</class>
+		<class>com.example.materialdata.entity.Sauserm</class>
+		<class>com.example.materialdata.entity.Activity</class>
+		<class>com.example.materialdata.entity.Userrole</class>
+		<class>com.example.materialdata.entity.UserroleActivity</class>
+		<class>com.example.materialdata.entity.UserroleActivityPK</class>
+	</persistence-unit>
+</persistence>
